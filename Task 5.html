@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Task 5</title>
+        <body>
+            <div class="container">
+                <div class="news" data-id="1">
+                    <h2>Новость 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                    <button class="button openBtn">Открыть всплывающее окно</button>
+                </div>
+                <div class="news" data-id="2">
+                    <h2>Новость 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                    <button class="button openBtn">Открыть всплывающее окно</button>
+                </div>
+                <div class="news" data-id="3">
+                    <h2>Новость 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                    <button class="button openBtn">Открыть всплывающее окно</button>
+                </div>
+                <div id="window" class="window hidden">
+                    <div class="window-news">
+                        <span id="closeBtn" class="close">&times;</span>
+                        <h1 id="titleNews"></h1>
+                        <p id="newsText"></p>
+                    </div>
+                </div>
+            </div>
+            <script src="main.js"></script>
+        </body>
+    </head>
+</html>
